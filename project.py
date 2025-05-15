@@ -1,6 +1,6 @@
 #hangman game
 import random
-from Hangman.Helper_Functions import create_wordlist, HANGMANPICS
+from Helper_Functions import create_wordlist, HANGMANPICS
 
 while True:  # game restart loop
 
@@ -42,7 +42,6 @@ while True:  # game restart loop
                 print(f"Well Done! You have guessed a correct letter!")
                 print(f"Your word looks like this: {empty_word}")
                 #increase guess counter
-                guesses += 1
                 print(f"You have {7 - guesses} guess(es) remaining. Wrong guess(es) = {wrong_guesses}")
 
             else:
