@@ -8,6 +8,9 @@ def create_wordlist():
             wordlist.append(word)
     return wordlist
 
+def test_action(x,y):
+    z = x+y
+    return z
 
 #hangman ASCII art for use in game
 HANGMANPICS = ['''
